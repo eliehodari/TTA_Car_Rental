@@ -78,3 +78,15 @@
     border: none;
     border-radius: 10px;
 }
+.input .input-container{
+    position: relative;
+}
+.input .input-container input{
+    padding-left: 25px;
+}
+
+.input .input-container i{
+    left: 3%;
+    top: 26%;
+    position: absolute;
+}
