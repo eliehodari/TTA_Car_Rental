@@ -135,6 +135,7 @@
     width: 55%;
     text-align: center;
 }
+
 .collection-section-header p{
     padding: 15px 0px;
 }
@@ -152,4 +153,72 @@
 .collection-section-header ul li:first-of-type a{
     background-color: #000;
     color: #fff;
+}
+.collection-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.collection-item{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.collection-item .img-container, .specs-container, .button-container{
+   display: flex;
+   justify-content: center; 
+   margin: 10px;
+}
+.collection-item img{
+    width: 100%;
+    height: auto;
+}
+.details-container{
+    margin: 10px;
+}
+.details-container h1{
+    padding: 5px 0px;
+}
+.details-container h1 sub{
+    font-weight: 100;
+    color: gray;
+}
+.specs-container, .button{
+    margin: 10px 0px;
+    padding-left: unset;
+}
+.specs-content{
+    width: 97%;
+    height: 55px;
+    background-color:#e5e4e2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+.spec{
+    text-align: center;
+}
+.button{
+    width: 95%;
+}
+.button button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+    border: .5px solid black;
+    border-radius: 30px;
+}
+.see-all-button{
+    display: flex;
+    justify-content: center;
+}
+.see-all-button button{
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+
 }
