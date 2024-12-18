@@ -96,8 +96,10 @@
 #body-type-section, 
 #collection-section, 
 #how-section, 
+#service-section, 
 .collection-section-header-container,
-.how-section-header-container{
+.how-section-header-container,
+.service-section-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
@@ -105,6 +107,7 @@
 .brand-section-container,
  .how-section-container,
  .body-type-section-container,
+ .service-section-container,
  .collection-section-container{
     width: 90vw;
 }
@@ -145,13 +148,15 @@
     margin-bottom: unset;
 }
 .collection-section-header,
-.how-section-header{
+.how-section-header,
+.service-section-header{
     width: 55%;
     text-align: center;
 }
 
 .collection-section-header p, 
-.how-section-header p{
+.how-section-header p,
+.service-section-header p{
     padding: 15px 0px;
 }
 .collection-section-header ul li{
@@ -237,8 +242,9 @@
     border-radius: 30px;
 
 }
-.collection-section-header,
-.how-section-header h1{
+.collection-section-header h1,
+.how-section-header h1, 
+.service-section-header h1{
     font-family: sans-serif;
 }
 
@@ -294,4 +300,12 @@
 .step-content p{
     text-align: justify;
     padding-right: 25px;
+}
+
+/* Service Sections */
+#service-section{
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0px;
+    margin-bottom: unset;
 }
