@@ -1,6 +1,4 @@
-@media (max-width: 600px) {
-    #brand-section, 
-    #body-type-section, 
+@media (max-width: 600px) { 
     #collection-section, 
     #how-section, 
     #service-section, 
@@ -22,5 +20,12 @@
     .form{
         flex-direction: column;
         width: 70%;
+    }
+    .brand-content, .body-type-content{
+        width: 25%;
+    }
+    .brand-content svg, .body-type-content svg{
+        width: 89%;
+        padding-left: 5px;
     }
 }
