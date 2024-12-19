@@ -9,7 +9,6 @@
         align-items: center;
     }
     .form{
-        flex-direction: column;
         width: 70%;
     }
     .brand-content, .body-type-content{
@@ -35,7 +34,7 @@
     .service-section-header{
         width: 65%;
     }
-    .how-container{
+    .how-container, .footer-container, .download-section-container .download-button-container, .download-section-content, .form{
         flex-direction: column;
     }
     .how-container .car-img{
@@ -57,21 +56,12 @@
     .comment-section-header h1{
         font-size: 20px;
     }
-    .download-section-content{
-        flex-direction: column;
-    }
     .download-section-container .download-content{
         width: 100%;
-    }
-    .download-section-container .download-button-container{
-        flex-direction: column;
     }
     .download-button{
         margin: 10px 0px;
         margin-right: 55px;
-    }
-    .footer-container{
-        flex-direction: column;
     }
     .footer-logo, .footer-nav, .footer-social{
         width: 100%;
