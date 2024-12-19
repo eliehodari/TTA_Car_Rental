@@ -1,6 +1,5 @@
-@media (max-width: 600px) {  
-    #how-section, 
-    #service-section, 
+@media (max-width: 600px) {   
+    #service-section,
     #comment-section,
     #download-section,
     footer{
@@ -36,5 +35,26 @@
     }
     .collection-grid{
         grid-template-columns: auto;
+    }
+    .service-grid{
+        grid-template-columns: auto;
+    }
+    .service-section-header{
+        width: 65%;
+    }
+    .how-container{
+        flex-direction: column;
+    }
+    .how-container .car-img{
+        width: 100%;
+        height: auto;
+    }
+    .car-img img{
+        width: 70%;
+        height: auto;
+    }
+    .how-content-steps{
+        position: relative;
+        width: 100%;
     }
 }
